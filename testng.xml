@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="section29.E2EProject.Lab209">
+		</listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="section29.E2EProject.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Lab204">
+		<classes>
+			<class name="section29.E2EProject.Lab204" />
+		</classes>
+	</test>
+
+	<test name="Lab202">
+		<classes>
+			<class name="section29.E2EProject.Lab202" />
+		</classes>
+	</test>
+
+	<test name="Lab198">
+		<classes>
+			<class name="section29.E2EProject.Lab198" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
